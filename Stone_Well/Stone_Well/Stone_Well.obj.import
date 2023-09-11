@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cvvyqq7ac7di1"
+path="res://.godot/imported/Stone_Well.obj-5ad6f232e20c30c6017ab05d7be27d8c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Stone_Well.obj-5ad6f232e20c30c6017ab05d7be27d8c.mesh"]
+
+source_file="res://Stone_Well/Stone_Well/Stone_Well.obj"
+dest_files=["res://.godot/imported/Stone_Well.obj-5ad6f232e20c30c6017ab05d7be27d8c.mesh", "res://.godot/imported/Stone_Well.obj-5ad6f232e20c30c6017ab05d7be27d8c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

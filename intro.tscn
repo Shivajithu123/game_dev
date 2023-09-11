@@ -1,0 +1,40 @@
+[gd_scene load_steps=5 format=3 uid="uid://x01awcmulgsn"]
+
+[ext_resource type="Texture2D" uid="uid://w3davwbqc6d0" path="res://gamebackground/Desert-Scene.svg" id="1_p1cs3"]
+[ext_resource type="Script" path="res://quit.gd" id="2_wjtb4"]
+
+[sub_resource type="Theme" id="Theme_t2xls"]
+
+[sub_resource type="AnimatedTexture" id="AnimatedTexture_qncgd"]
+
+[node name="intro" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 1182.0
+offset_bottom = 822.0
+texture = ExtResource("1_p1cs3")
+
+[node name="play" type="Button" parent="TextureRect"]
+layout_mode = 0
+offset_left = 573.0
+offset_top = 188.0
+offset_right = 855.0
+offset_bottom = 309.0
+theme = SubResource("Theme_t2xls")
+keep_pressed_outside = true
+text = "PLAY"
+
+[node name="quit" type="Button" parent="TextureRect"]
+layout_mode = 0
+offset_left = 574.0
+offset_top = 363.0
+offset_right = 856.0
+offset_bottom = 484.0
+text = "QUIT"
+icon = SubResource("AnimatedTexture_qncgd")
+script = ExtResource("2_wjtb4")
+
+[connection signal="pressed" from="TextureRect/play" to="TextureRect/quit" method="_on_play_pressed"]
+[connection signal="pressed" from="TextureRect/quit" to="TextureRect/quit" method="_on_pressed"]

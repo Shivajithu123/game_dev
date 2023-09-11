@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://23oayynn1dbj"]
+
+[node name="fort" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = -149.0
+offset_top = -93.0
+offset_right = 1183.0
+offset_bottom = 630.0

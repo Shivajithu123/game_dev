@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://ctv0q0sjttu7y"]
+
+[ext_resource type="Texture2D" uid="uid://c065bfs6b2mth" path="res://gamebackground/3840x2160/Preview.png" id="1_t357i"]
+[ext_resource type="Texture2D" uid="uid://bjxaj11hk6xku" path="res://mini farm pack/well.png" id="2_tv2v8"]
+
+[node name="desert" type="Node2D"]
+
+[node name="background_world" type="TextureRect" parent="."]
+offset_left = 3.0
+offset_top = -745.0
+offset_right = 3851.0
+offset_bottom = 1415.0
+texture = ExtResource("1_t357i")
+
+[node name="Well" type="Sprite2D" parent="."]
+position = Vector2(307, 893)
+texture = ExtResource("2_tv2v8")
